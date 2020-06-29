@@ -1,1 +1,1 @@
-# comp-graph
+# comp_graph
