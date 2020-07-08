@@ -1,0 +1,10 @@
+*_env
+.idea
+build
+__pycache__
+.DS_Store
+.pytest_cache
+.ipynb_checkpoints/
+.mypy_cache
+.cache
+*.py[cod]
