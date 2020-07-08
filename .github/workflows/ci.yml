@@ -26,7 +26,7 @@ jobs:
         mypy --ignore-missing-imports --disallow-untyped-defs --disallow-incomplete-defs --disallow-subclassing-any --disallow-any-generics --no-implicit-optional --warn-redundant-casts --warn-unused-ignores --warn-unreachable --allow-untyped-decorators .
     - name: flake8
       run: |
-        flake8 .
+        flake8 --max-line-length=120 --exclude="test_*.py" .
     - name: pytest
       run: |
         pytest .
