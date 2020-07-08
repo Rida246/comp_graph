@@ -23,7 +23,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: mypy
       run: |
-        mypy .
+        mypy --ignore-missing-imports --disallow-untyped-defs --disallow-incomplete-defs --disallow-subclassing-any --disallow-any-generics --no-implicit-optional --warn-redundant-casts --warn-unused-ignores --warn-unreachable --allow-untyped-decorators .
     - name: flake8
       run: |
         flake8 .
