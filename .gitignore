@@ -9,3 +9,5 @@ __pycache__
 .cache
 *.py[cod]
 resource/
+REQUIREMENTS.md
+README_INITIAL.md
