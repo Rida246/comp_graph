@@ -8,3 +8,6 @@ __pycache__
 .mypy_cache
 .cache
 *.py[cod]
+resource/
+REQUIREMENTS.md
+README_INITIAL.md
